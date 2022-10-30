@@ -8,11 +8,12 @@ function ArticleDetails ({article}) {
     return ( 
 
         <section>
+        <p><strong>&#127875; Article details for:</strong></p>
         <h2>{article.webTitle}</h2>
    
-       <p><strong><a href={article.webUrl}> Click here to view the article </a></strong></p>
-       <p><strong>Published on: </strong>{article.webPublicationDate}</p>
-       <p><strong>Category:</strong>{article.sectionName}</p>
+       <p><strong> &#127875;<a href={article.webUrl}> Click here to read this</a></strong></p>
+       <p><strong>&#127875; Published on: </strong> {article.webPublicationDate}</p>
+       <p><strong>&#127875; Category:</strong> {article.sectionName}</p>
        
 
         </section>

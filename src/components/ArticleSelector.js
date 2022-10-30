@@ -1,4 +1,6 @@
 import React from 'react';
+import './components.css'
+
 
 function ArticleSelector({articles, changeHandler}) {
     function onChange(evt) {
@@ -16,7 +18,7 @@ function ArticleSelector({articles, changeHandler}) {
 
     return (
         <label>
-            <h3>Choose article: </h3>
+            <h3>&#127875; Choose article : </h3>
             <select onChange={onChange}>
                 {options}
             </select>

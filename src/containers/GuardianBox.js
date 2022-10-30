@@ -5,6 +5,7 @@ import Header from "../components/reusable/Header";
 // import SelectedCategoryShow from "../components/SelectedCategoryShow";
 import ArticleSelector from '../components/ArticleSelector';
 import ArticleDetails from '../components/ArticleDetails';
+import './containers.css';
 
 const GuardianBox = () => {
     
@@ -56,6 +57,7 @@ const GuardianBox = () => {
 
     return (
         <>
+    
         <Header text="Ghost Guardian" />
         {/* <CategorySelector articles={articles} />
         <SelectedCategoryShow articles={articles} onCategorySelect={filterArticlesByCategory}/> */}
@@ -74,9 +76,9 @@ const GuardianBox = () => {
         } />
 
         <ArticleDetails article = {selectedArticle} />
+        </>
+        /* <SelectedCategoryShow article = {selectedCategoryArticle}/> */
 
-        {/* <SelectedCategoryShow article = {selectedCategoryArticle}/> */}
-    </>
 
 
     )

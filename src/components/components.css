@@ -1,0 +1,28 @@
+h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+
+    font-family: cursive;
+}
+
+select {
+    padding: 0.5rem;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 1.3rem;
+}
+
+strong {
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+p {
+
+    font-family: "Gill Sans", sans-serif;
+    font-size: 1.3rem;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
